@@ -20,7 +20,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     }
 
     try {
-      alert('hello ionic-tabs: restored cordova location.');
+      alert('hello ionic-tabs: Removed JS.');
       alert('File '+(typeof File)+': '+JSON.stringify(File));
       alert('FileTransfer '+(typeof FileTransfer)+': '+JSON.stringify(FileTransfer));
       alert('FileTransferError '+(typeof FileTransferError)+': '+JSON.stringify(FileTransferError));
