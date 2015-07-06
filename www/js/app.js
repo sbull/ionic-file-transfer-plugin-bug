@@ -20,7 +20,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     }
 
     try {
-      alert('hello ionic-tabs: npm plugins loaded.');
+      alert('hello ionic-tabs: pgb plugins loaded.');
       alert('File '+(typeof File)+': '+JSON.stringify(File));
       alert('FileTransfer '+(typeof FileTransfer)+': '+JSON.stringify(FileTransfer));
       alert('FileTransferError '+(typeof FileTransferError)+': '+JSON.stringify(FileTransferError));

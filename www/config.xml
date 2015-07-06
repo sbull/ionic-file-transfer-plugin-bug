@@ -32,13 +32,13 @@
 
   <gap:plugin source="npm" name="ionic-plugin-keyboard" version="1.0.5" />
 
-<!--
+
   <gap:plugin name="com.adobe.plugins.gaplugin"/>
   <gap:plugin name="nl.x-services.plugins.socialsharing" version="4.3.8"/>
   <gap:plugin name="uk.co.whiteoctober.cordova.appversion" version="0.1.4"/>
   <gap:plugin name="com.phonegap.plugins.pushplugin" version="2.1.1">
     <param name="android-package" value="com.plugin.gcm.PushPlugin"/>
   </gap:plugin>
--->
+
 
 </widget>
