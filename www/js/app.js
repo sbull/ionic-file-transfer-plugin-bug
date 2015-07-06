@@ -21,6 +21,14 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 
     try {
       alert('hello ionic-tabs');
+      alert('File '+(typeof File)+': '+JSON.stringify(File));
+      alert('FileTransfer '+(typeof FileTransfer)+': '+JSON.stringify(FileTransfer));
+      alert('FileTransferError '+(typeof FileTransferError)+': '+JSON.stringify(FileTransferError));
+      alert('FileUploadOptions '+(typeof FileUploadOptions)+': '+JSON.stringify(FileUploadOptions));
+      alert(window.File);
+      alert(window.FileTransfer);
+      alert(window.FileTransferError);
+      alert(window.FileUploadOptions);
     }
     catch (e) {
       alert('ERROR: '+e.toString());
