@@ -18,6 +18,14 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       // org.apache.cordova.statusbar required
       StatusBar.styleLightContent();
     }
+
+    try {
+      alert('hello ionic-tabs');
+    }
+    catch (e) {
+      alert('ERROR: '+e.toString());
+    }
+
   });
 })
 
