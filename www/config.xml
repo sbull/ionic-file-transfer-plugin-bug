@@ -46,11 +46,11 @@
   <gap:plugin name="cordova-plugin-file" version="2.1.0" source="npm"/>
   <gap:plugin name="cordova-plugin-file-transfer" version="1.2.0" source="npm"/>
   <gap:plugin name="cordova-plugin-camera" version="1.2.0" source="npm"/>
-  <gap:plugin source="npm" name="cordova-plugin-console" version="1.0.1" />
+  <gap:plugin name="org.apache.cordova.console"/>
   <gap:plugin name="cordova-plugin-device" version="1.0.1" source="npm"/>
-  <gap:plugin source="npm" name="cordova-plugin-dialogs" version="1.1.1" />
+  <gap:plugin name="org.apache.cordova.dialogs"/>
   <gap:plugin name="cordova-plugin-inappbrowser" version="1.0.1" source="npm"/>
-  <gap:plugin source="npm" name="cordova-plugin-media" version="1.0.1" />
+  <gap:plugin name="org.apache.cordova.media"/>
   <gap:plugin name="cordova-plugin-splashscreen" version="2.1.0" source="npm">
     <param name="android-package" value="cordova-plugin-splashscreen"/>
     <param name="ios-package" value="CDVSplashScreen"/>

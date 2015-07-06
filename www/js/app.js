@@ -20,7 +20,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     }
 
     try {
-      alert('hello ionic-tabs: Rolled back params.');
+      alert('hello ionic-tabs: Rolled back plugins.');
       alert('File '+(typeof File)+': '+JSON.stringify(File));
       alert('FileTransfer '+(typeof FileTransfer)+': '+JSON.stringify(FileTransfer));
       alert('FileTransferError '+(typeof FileTransferError)+': '+JSON.stringify(FileTransferError));
